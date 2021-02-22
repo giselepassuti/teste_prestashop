@@ -1,0 +1,380 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-22T11:42:22.868Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3263547100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ComprarProdutoSteps.inicializar()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Deve mostrar produto escolhido confirmado",
+        "description": "",
+        "id": "comprar-produto;deve-mostrar-produto-escolhido-confirmado;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 373871200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ComprarProdutoSteps.capturarTela(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 716165000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ComprarProdutoSteps.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5536202300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "que eu estou na pagina inicial",
+            "match": {
+              "location": "steps.ComprarProdutoSteps.que_eu_estou_na_pagina_inicial()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4326369900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "estou logado",
+            "match": {
+              "location": "steps.ComprarProdutoSteps.estou_logado()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1990019900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "seleciono um produto na posicao 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.ComprarProdutoSteps.seleciono_um_produto_na_posicao(java.lang.Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "o nome do produto na tela principal e na tela produto eh \"Hummingbird Printed T-Shirt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hummingbird Printed T-Shirt\"",
+                  "offset": 57
+                }
+              ],
+              "location": "steps.ComprarProdutoSteps.o_nome_do_produto_na_tela_principal_eh(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "o preco do produto na tela principal e na tela produto eh \"$19.12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$19.12\"",
+                  "offset": 58
+                }
+              ],
+              "location": "steps.ComprarProdutoSteps.o_preco_do_produto_na_tela_principal_eh(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3845783000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "adiciono o produto no carrinho com tamanho \"M\" cor \"Black\" e quantidade 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"M\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Black\"",
+                  "offset": 51
+                },
+                {
+                  "val": "2",
+                  "offset": 72
+                }
+              ],
+              "location": "steps.ComprarProdutoSteps.adiciono_o_produto_no_carrinho_com_tamanho_cor_e_quantidade(java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 125616300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "o produto aparece na confirmacao com nome \"Hummingbird Printed T-Shirt\" preco \"$19.12\" tamanho \"M\" cor \"Black\" e quantidade 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hummingbird Printed T-Shirt\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"$19.12\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"M\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"Black\"",
+                  "offset": 103
+                },
+                {
+                  "val": "2",
+                  "offset": 124
+                }
+              ],
+              "location": "steps.ComprarProdutoSteps.o_produto_aparece_na_confimacao_com_nome_preco_tamanho_cor_e_quantidade(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fluxopadrao"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-22T11:42:43.203Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1392190800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ComprarProdutoSteps.inicializar()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Deve mostrar produto escolhido confirmado",
+        "description": "",
+        "id": "comprar-produto;deve-mostrar-produto-escolhido-confirmado;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 373756500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ComprarProdutoSteps.capturarTela(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 779395500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ComprarProdutoSteps.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3295990700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "que eu estou na pagina inicial",
+            "match": {
+              "location": "steps.ComprarProdutoSteps.que_eu_estou_na_pagina_inicial()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3986323700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "estou logado",
+            "match": {
+              "location": "steps.ComprarProdutoSteps.estou_logado()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1300251100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "seleciono um produto na posicao 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.ComprarProdutoSteps.seleciono_um_produto_na_posicao(java.lang.Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "o nome do produto na tela principal e na tela produto eh \"Hummingbird Printed Sweater\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hummingbird Printed Sweater\"",
+                  "offset": 57
+                }
+              ],
+              "location": "steps.ComprarProdutoSteps.o_nome_do_produto_na_tela_principal_eh(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "o preco do produto na tela principal e na tela produto eh \"$28.72\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$28.72\"",
+                  "offset": 58
+                }
+              ],
+              "location": "steps.ComprarProdutoSteps.o_preco_do_produto_na_tela_principal_eh(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3124120300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "adiciono o produto no carrinho com tamanho \"XL\" cor \"N/A\" e quantidade 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"XL\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"N/A\"",
+                  "offset": 52
+                },
+                {
+                  "val": "3",
+                  "offset": 71
+                }
+              ],
+              "location": "steps.ComprarProdutoSteps.adiciono_o_produto_no_carrinho_com_tamanho_cor_e_quantidade(java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 91537700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "o produto aparece na confirmacao com nome \"Hummingbird Printed Sweater\" preco \"$28.72\" tamanho \"XL\" cor \"N/A\" e quantidade 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hummingbird Printed Sweater\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"$28.72\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"XL\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"N/A\"",
+                  "offset": 104
+                },
+                {
+                  "val": "3",
+                  "offset": 123
+                }
+              ],
+              "location": "steps.ComprarProdutoSteps.o_produto_aparece_na_confimacao_com_nome_preco_tamanho_cor_e_quantidade(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fluxopadrao"
+          }
+        ]
+      }
+    ],
+    "name": "Comprar Produto",
+    "description": "  Como um usuario logado \n  Eu quero escolher um produto \n  e visualizar esse produto no carrinho\n  Para concluir o pedido",
+    "id": "comprar-produto",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/comprar_produto.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="34.883">
+    <testcase classname="Comprar Produto" name="Deve mostrar produto escolhido confirmado" time="20.306">
+        <system-out><![CDATA[Dado que eu estou na pagina inicial.........................................passed
+Quando estou logado.........................................................passed
+E seleciono um produto na posicao 0.........................................passed
+E o nome do produto na tela principal e na tela produto eh "Hummingbird Printed T-Shirt".passed
+E o preco do produto na tela principal e na tela produto eh "$19.12"........passed
+E adiciono o produto no carrinho com tamanho "M" cor "Black" e quantidade 2.passed
+Entao o produto aparece na confirmacao com nome "Hummingbird Printed T-Shirt" preco "$19.12" tamanho "M" cor "Black" e quantidade 2.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Comprar Produto" name="Deve mostrar produto escolhido confirmado 2" time="14.352">
+        <system-out><![CDATA[Dado que eu estou na pagina inicial.........................................passed
+Quando estou logado.........................................................passed
+E seleciono um produto na posicao 1.........................................passed
+E o nome do produto na tela principal e na tela produto eh "Hummingbird Printed Sweater".passed
+E o preco do produto na tela principal e na tela produto eh "$28.72"........passed
+E adiciono o produto no carrinho com tamanho "XL" cor "N/A" e quantidade 3..passed
+Entao o produto aparece na confirmacao com nome "Hummingbird Printed Sweater" preco "$28.72" tamanho "XL" cor "N/A" e quantidade 3.passed
+]]></system-out>
+    </testcase>
+</testsuite>
