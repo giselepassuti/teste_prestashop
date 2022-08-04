@@ -15,16 +15,23 @@ produto no carrinho, Ir para o carrinho, Ir para o checkout.)
 
 
 # Ferramnetas utilizadas
-# IDE Eclipse 2020-12
+IDE Eclipse 2020-12
 - https://www.eclipse.org/downloads/
-# Open JDK 15.0.2
+
+Open JDK 15.0.2
 - https://openjdk.java.net/projects/jdk/15/
-# JUnit versão 5.6.2
-# Hamcrest versão 2.2
-# Selenium versão 3.141.59
-# Cucumber versão 6.2 
+
+ JUnit versão 5.6.2
+
+ Hamcrest versão 2.2
+
+ Selenium versão 3.141.59
+
+ Cucumber versão 6.2 
+
 - https://mvnrepository.com/
-# ChromeDriver versão 88
+
+ ChromeDriver versão 88
 
 
 ![alt text](https://github.com/giselepassuti/teste_prestashop/blob/main/eclipse-workspace-irts/ecommerce_prestashop/resources/screenshots/loginInvalido_negativo.png?raw=true)
